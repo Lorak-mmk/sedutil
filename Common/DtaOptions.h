@@ -95,6 +95,7 @@ typedef enum _sedutiloption {
 	validatePBKDF2,
 	objDump,
     printDefaultPassword,
+    printPasswordHash,
 	rawCmd,
 
 } sedutiloption;
