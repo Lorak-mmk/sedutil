@@ -56,4 +56,6 @@ public:
     /** Linux specific routine to send an ATA identify to the device */
     void identify_SAS(OPAL_DiskInfo *disk_info);
     int isSAS; /* The device is sas */
+
+    uint8_t prepareForS3Sleep(uint8_t lockingrange, const vector<uint8_t> &password_hash);
 };
