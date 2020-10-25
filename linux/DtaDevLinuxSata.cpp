@@ -29,6 +29,7 @@ along with sedutil.  If not, see <http://www.gnu.org/licenses/>.
 #include <string.h>
 #include <unistd.h>
 #include <linux/hdreg.h>
+#include <linux/sed-opal.h>
 #include <errno.h>
 #include <vector>
 #include <fstream>
